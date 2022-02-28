@@ -1,0 +1,147 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+
+<!--    <item>-->
+
+<!--            <vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                android:height="24dp"-->
+<!--                android:width="24dp"-->
+<!--                android:viewportWidth="24"-->
+<!--                android:viewportHeight="24">-->
+<!--                <path-->
+<!--                    android:strokeWidth="0.3"-->
+<!--                    android:strokeColor="#BA2B2B"-->
+<!--                    android:pathData="M 15.406 19.998 H 8.411 L 2.995 14.641 V 15.73 L 8.27 21 H 15.73 L 21 15.73 V 14.492" >-->
+
+<!--                </path>-->
+<!--            </vector>-->
+<!--        </item>-->
+
+<!--    <item android:id="@android:id/secondaryProgress">-->
+<!--        <clip>-->
+
+<!--            <vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                android:height="24dp"-->
+<!--                android:width="24dp"-->
+
+<!--                android:viewportWidth="24"-->
+<!--                android:viewportHeight="24">-->
+<!--                <path-->
+<!--                    android:strokeWidth="0.3"-->
+<!--                    android:strokeColor="#BA2B2B"-->
+<!--                    android:pathData="M 15.406 19.998 H 8.411 L 2.995 14.641 V 15.73 L 8.27 21 H 15.73 L 21 15.73 V 14.492" >-->
+<!--                    <aapt:attr name="android:fillColor">-->
+<!--                        <gradient-->
+<!--                            android:endColor="#   style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/circular"
+        android:secondaryProgress="100""-->
+<!--                            android:centerColor="#B5722D"-->
+<!--                            android:startColor="#E9233F85"-->
+<!--                            android:endX="35"-->
+<!--                            android:endY="19"-->
+<!--                            android:startX="12"-->
+<!--                            android:startY="19"-->
+<!--                            android:type="linear" />-->
+<!--                    </aapt:attr>-->
+<!--                </path>-->
+<!--            </vector>-->
+<!--        </clip>-->
+<!--    </item>-->
+
+    <item android:id="@android:id/secondaryProgress" >
+
+        <clip >
+
+            <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:height="24dp"
+                android:width="24dp"
+
+                android:viewportWidth="24"
+                android:viewportHeight="24">
+                <path
+                    android:strokeWidth="0.3"
+
+                    android:pathData="M 21.006 13.064 L 15.709 18.636 H 8.379 L 2.991 13.11 V 15.73 L 8.27 21 H 15.73 L 21 15.73 L 21.006 13.041" >
+                    <aapt:attr name="android:fillColor">
+
+                        <gradient
+                            android:centerColor="#999999"
+                            android:endColor="#999999"
+                            android:startColor="#999999"
+                            android:type="sweep" />
+                    </aapt:attr>
+                    <aapt:attr name="android:strokeColor">
+                        <gradient
+                            android:endColor="#B0FFFFFF"
+                            android:centerColor="#FFFFFF"
+                            android:startColor="#E9FFFFFF"
+                            android:endX="35"
+                            android:endY="19"
+                            android:startX="12"
+                            android:startY="19"
+                            android:type="linear" />
+                    </aapt:attr>
+                </path>
+
+
+            </vector>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+
+        <clip>
+
+            <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:height="24dp"
+                android:width="24dp"
+                android:thicknessRatio="20"
+                android:viewportWidth="24"
+                android:viewportHeight="24">
+                <path
+                    android:strokeWidth="0.3"
+                    android:thicknessRatio="20"
+                    android:pathData="M 21.006 13.064 L 15.709 18.636 H 8.379 L 2.991 13.11 V 15.73 L 8.27 21 H 15.73 L 21 15.73 L 21.006 13.041" >
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endColor="#B0FA0202"
+                            android:centerColor="#F10D0D"
+                            android:startColor="#E912B2F1"
+                            android:endX="35"
+                            android:endY="20"
+                            android:startX="8"
+                            android:startY="10"
+                            android:type="linear" />
+
+                    </aapt:attr>
+                    <aapt:attr name="android:strokeColor">
+                        <gradient
+                            android:endColor="#B0FFFFFF"
+                            android:centerColor="#FFFFFF"
+                            android:startColor="#E9FFFFFF"
+                            android:endX="35"
+                            android:endY="19"
+                            android:startX="12"
+                            android:startY="19"
+                            android:type="linear" />
+                    </aapt:attr>
+                </path>
+
+
+            </vector>
+        </clip>
+
+    </item>
+
+
+
+
+
+</layer-list>

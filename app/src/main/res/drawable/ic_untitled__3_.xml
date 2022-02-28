@@ -1,0 +1,18 @@
+<vector android:height="500dp" android:viewportHeight="1000"
+    android:viewportWidth="1000" android:width="500dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path android:fillColor="#3376FF" android:fillType="evenOdd"
+        android:pathData="M634.43,579.33L360.93,579.33C351.71,579.33 343.53,575.4 336.36,568.88L103.31,335.67C100.03,332.39 94.6,334.71 94.6,340.9L94.6,431.99C94.6,438.53 97.17,444.98 102.05,449.87L302.59,650.51C309.1,657.02 317.95,660.66 327.17,660.66L667.6,660.66C676.8,660.66 686.24,657.01 692.74,650.51L892.72,450.44C897.61,445.56 900.35,438.93 900.35,432.03L900.35,339.98C900.35,335.34 894.74,335.24 891.46,336.29L659.16,568.9C652.44,575.41 643.63,579.33 634.43,579.33Z"
+        android:strokeColor="#00000000" android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" android:strokeWidth="1.7369"/>
+    <path android:fillAlpha="0.302" android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M312.85,642.85L99.64,428.96L99.64,435.38C99.64,442.31 102.38,450.68 107.26,455.57L307.82,656.78C314.32,663.31 323.18,665.87 332.38,665.87L672.81,665.87C682.01,665.87 691.44,661.57 697.95,655.04L897.94,454.43C902.82,449.53 905.56,442.9 905.56,435.97L905.56,429.55L692.92,642.85C686.41,649.38 676.8,651.98 667.6,651.98L337.59,651.98C328.4,651.98 319.36,649.38 312.85,642.85Z"
+        android:strokeAlpha="0.302" android:strokeColor="#00000000"
+        android:strokeLineCap="butt" android:strokeLineJoin="miter" android:strokeWidth="1.7369"/>
+    <path android:fillAlpha="0.502" android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M312.85,642.85L99.64,428.96L99.64,435.38C99.64,442.31 102.38,450.68 107.26,455.57L307.82,656.78C314.32,663.31 323.18,665.87 332.38,665.87L672.81,665.87C682.01,665.87 691.44,661.57 697.95,655.04L897.94,454.43C902.82,449.53 905.56,442.9 905.56,435.97L905.56,429.55L692.92,642.85C686.41,649.38 678.54,651.98 669.34,651.98L337.59,651.98C328.4,651.98 319.36,649.38 312.85,642.85Z"
+        android:strokeAlpha="0.502" android:strokeColor="#00000000"
+        android:strokeLineCap="butt" android:strokeLineJoin="miter" android:strokeWidth="1.7369"/>
+</vector>

@@ -1,0 +1,63 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+<!--    <item>-->
+
+<!--        <vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            android:height="24dp"-->
+<!--            android:width="24dp"-->
+<!--            android:viewportWidth="24"-->
+<!--            android:viewportHeight="24">-->
+<!--            <path-->
+<!--                android:strokeColor="#00000000"-->
+<!--                android:pathData="M 11 18 H 14 L 20 13 V 15 L 15 20 H 11" >-->
+<!--                <aapt:attr name="android:fillColor">-->
+<!--                    <gradient-->
+<!--                        android:endColor="#B01E187C"-->
+<!--                        android:startColor="#314C8F"-->
+<!--                        android:endX="11"-->
+<!--                        android:endY="4"-->
+<!--                        android:startX="1"-->
+<!--                        android:startY="19"-->
+<!--                        android:type="linear" />-->
+<!--                </aapt:attr>-->
+<!--            </path>-->
+<!--        </vector>-->
+
+
+
+<!--    </item>-->
+
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+
+            <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:height="24dp"
+                android:width="24dp"
+                android:viewportWidth="24"
+                android:viewportHeight="24">
+                <path
+                    android:strokeColor="#00000000"
+                    android:pathData="M 11 18 H 14 L 20 13 V 15 L 15 20 H 11" >
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endColor="#B0FA0202"
+                            android:centerColor="#F10D0D"
+                            android:startColor="#E912B2F1"
+                            android:endX="35"
+                            android:endY="20"
+                            android:startX="8"
+                            android:startY="10"
+                            android:type="linear"/>
+                    </aapt:attr>
+                </path>
+            </vector>
+        </clip>
+    </item>
+
+
+
+</layer-list>
+
+

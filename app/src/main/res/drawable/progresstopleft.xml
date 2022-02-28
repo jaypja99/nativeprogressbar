@@ -1,0 +1,71 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+
+<!--    <item>-->
+
+<!--        <vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            android:height="300dp"-->
+<!--            android:width="500dp"-->
+<!--            android:viewportWidth="500"-->
+<!--            android:viewportHeight="300">-->
+<!--            <path android:fillColor="#000" android:pathData="M332.6,202.175L164.565,202.175C158.905,202.175 153.88,200.201 149.475,196.924L6.296,79.681C4.281,78.032 0.943,79.199 0.943,82.311L0.943,128.101C0.943,131.393 2.519,134.636 5.519,137.092L128.726,237.96C132.726,241.234 138.165,243.066 143.827,243.066L352.978,243.066C358.627,243.066 364.426,241.23 368.42,237.96L491.286,137.38C494.286,134.924 495.971,131.594 495.971,128.121L495.971,81.845C495.971,79.513 492.525,79.465 490.509,79.994L347.793,196.935C343.665,200.204 338.248,202.175 332.6,202.175Z" />-->
+<!--        </vector>-->
+
+
+
+<!--    </item>-->
+
+
+
+    <item android:id="@android:id/secondaryProgress">
+
+        <clip>
+
+            <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                android:height="300dp"
+                android:width="500dp"
+                android:viewportWidth="500"
+                android:viewportHeight="300">
+
+
+                <path
+                    android:strokeColor="#00000000"
+
+                    android:pathData="M332.6,202.175L164.565,202.175C158.905,202.175 153.88,200.201 149.475,196.924L6.296,79.681C4.281,78.032 0.943,79.199 0.943,82.311L0.943,128.101C0.943,131.393 2.519,134.636 5.519,137.092L128.726,237.96C132.726,241.234 138.165,243.066 143.827,243.066L352.978,243.066C358.627,243.066 364.426,241.23 368.42,237.96L491.286,137.38C494.286,134.924 495.971,131.594 495.971,128.121L495.971,81.845C495.971,79.513 492.525,79.465 490.509,79.994L347.793,196.935C343.665,200.204 338.248,202.175 332.6,202.175Z" >
+
+
+                    <aapt:attr name="android:fillColor">
+                        <gradient
+                            android:endColor="#008EFF"
+                            android:centerColor="#0A141C"
+                            android:startColor="#FFFFFF"
+                            android:endX="25"
+                            android:useLevel="true"
+                            android:startY="19"
+                            android:type="linear" />
+
+
+                    </aapt:attr>
+
+                </path>
+
+
+
+            </vector>
+
+
+
+
+        </clip>
+
+
+
+    </item>
+
+
+</layer-list>
+
+
+
+
+
